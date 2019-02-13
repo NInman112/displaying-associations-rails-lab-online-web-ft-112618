@@ -1,5 +1,4 @@
 <h1><%= @artist.name %></h1>
 <% @artist.songs.each do |song| %>
-<%binding.pry%>
-<h3><%= link_to song.title, song_path(song) if @artist.songs %></h3>
+  <h3><%= link_to song.title, song_path(song) if @artist.songs %></h3>
 <% end  %>
