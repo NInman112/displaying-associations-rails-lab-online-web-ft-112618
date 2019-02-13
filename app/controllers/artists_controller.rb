@@ -50,5 +50,3 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(:name)
   end
 end
-
-#rails generate migration AddDetailsToProducts part_number:string price:decimal
