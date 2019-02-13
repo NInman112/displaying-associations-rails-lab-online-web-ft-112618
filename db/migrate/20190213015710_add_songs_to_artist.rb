@@ -1,5 +1,5 @@
 class AddSongsToArtist < ActiveRecord::Migration
   def change
-    add_column :artists, :artist_id, :integer
+    add_column :songs, :artist_id, :integer
   end
 end
