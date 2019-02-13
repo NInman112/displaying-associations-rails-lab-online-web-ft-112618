@@ -2,7 +2,6 @@
 
 <ul>
   <% @artists.each do |artist| %>
-  <%binding.pry%>
     <li><%= artist.name %> <%= "#{artist.song_count} songs" %></li>
   <% end %>
 </ul>
