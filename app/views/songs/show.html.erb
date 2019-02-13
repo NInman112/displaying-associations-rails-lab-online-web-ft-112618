@@ -1,3 +1,2 @@
 <h1><%= @song.title %></h1>
-<%binding.pry%>
-<h3><%= link_to (@song.artist_name " - " @song.title), artist_path(@song.artist) if @song.artist %></h3>
+<h3><%= link_to @song.artist_name, artist_path(@song.artist) if @song.artist %></h3>
